@@ -3,6 +3,7 @@
 int main(void) {
   long int numero, resto, x, tamanho;
   char numeroString[5];
+  
   while(scanf("%ld",&numero)!=EOF){
     x=1;
     while(x<numero){
